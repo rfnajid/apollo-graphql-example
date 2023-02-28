@@ -1,0 +1,46 @@
+{
+  "name": "apollo-graphql-example",
+  "version": "1.0.0",
+  "description": "Simple apollo graphql server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfnajid/apollo-graphql-example.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "apollo",
+    "graphql",
+    "sequelize",
+    "typescript"
+  ],
+  "author": "Rida F Najid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfnajid/apollo-graphql-example/issues"
+  },
+  "homepage": "https://github.com/rfnajid/apollo-graphql-example#readme",
+  "dependencies": {
+    "@apollo/server": "^4.4.0",
+    "@graphql-tools/schema": "^9.0.16",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-resolvers": "^0.4.2",
+    "pg": "^8.9.0",
+    "sequelize": "^6.29.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "@types/sequelize": "^4.28.14",
+    "nodemon": "^2.0.20",
+    "tsconfig-paths": "^3.14.2",
+    "typescript": "^4.9.5"
+  }
+}
